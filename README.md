@@ -15,4 +15,16 @@ A list of common errors encountered when running or building AppImage.
 
 Solution: <https://github.com/tauri-apps/tauri/pull/12491>
 
+Working apps (tested on Fedora 44, GNOME 50: wireguard-gui, Handy) uses next deps: 
+```shell
+libappindicator3-dev
+librsvg2-dev
+patchelf
+libwebkit2gtk-4.1-0=2.44.0-2 \
+libwebkit2gtk-4.1-dev=2.44.0-2 \
+libjavascriptcoregtk-4.1-0=2.44.0-2 \
+libjavascriptcoregtk-4.1-dev=2.44.0-2 \
+gir1.2-javascriptcoregtk-4.1=2.44.0-2 \
+gir1.2-webkit2-4.1=2.44.0-2
+```
 # Electron-related issues
